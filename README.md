@@ -67,9 +67,18 @@ To calculate maximum acceleration, this equation is used:
 
 With the maximum acceleration and velocity calculated from the user inputs, the rest of the programming is straightforward. The table is set to only to move with these values, and moves one step per time increment. The stepper library automatically does the acceleration control when commanded to move to a position, so the only thing left to do is check to see if the target has been reached. If it has, the target position is inverted, and the tables moves in the opposite direction. By controlling the shaker table by only commanding the table to reach a certain velocity with a certain acceleration over a distance, and the calculated values align with the max velocity and acceleration for a sine wave, the table is forced to move in a sine wave motion.
 
+# Trapezoidal Control
+This function controls the motion of the shaker table in a trapezoidal motion, and allows rough approximation of square wave movement. The user inputs a desired velocity and amplitude.
+
+Rather than sinusoidal control, which sets a fixed acceleration to create variable velocity to bounce between positions, trapezoidal control uses a fixed velocity with "infinite" acceleration to create near-linear movement. True square wave motion is not replicatable in real life, as it would require teleporting the shaker bed from one location to another, however by using a high velocity and max acceleration, a square wave can be emulated.
 
 # Results
-Overall, the table does an okay job simulating harmonic motion. Observing the capstone position data, sine waves can be clearly seen in the motion of the table, but the precision of the frequency leaves some to be desired. Using recommended amplitude values, the accuracy of the table can be within +/- .5Hz, meeting the set goal.
+
+<img width="433" height="296" alt="waves" src="https://github.com/user-attachments/assets/2f6ce585-22db-4fe3-84ef-f7ed82ba40bf" />
+
+    a. Sinusoidal motion b. approximated square wave motion c. trapezoidal motion
+
+Overall, the table does a reasonable job simulating harmonic motion. Observing the capstone position data, sine waves can be clearly seen in the motion of the table, but the precision of the frequency leaves some to be desired. Using recommended amplitude values, the accuracy of the table can be within +/- .5Hz, meeting the set goal.
 
 ![20250507_114622](https://github.com/user-attachments/assets/377dfefa-f7b9-4bfc-8b43-03bce374ba27)
 
