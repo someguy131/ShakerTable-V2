@@ -74,7 +74,7 @@ Rather than sinusoidal control, which sets a fixed acceleration to create variab
 
 # Results
 
-<img width="433" height="296" alt="waves" src="https://github.com/user-attachments/assets/2f6ce585-22db-4fe3-84ef-f7ed82ba40bf" />
+![image](https://github.com/user-attachments/assets/2f6ce585-22db-4fe3-84ef-f7ed82ba40bf)
 
     a. Sinusoidal motion b. approximated square wave motion c. trapezoidal motion
 
@@ -93,7 +93,8 @@ The table was tested from a range of 1 Hz to 15 Hz. The Shaker table showed that
 
 
 ![image](https://github.com/user-attachments/assets/b3c5650b-2771-4f5a-85d0-b2238917248b)
-![image](https://github.com/user-attachments/assets/3b7dce98-699d-4e47-968e-0bbc43ad955f)
+![image](https://github.com/user-attachments/assets/f7bde2ad-7e0a-4592-b4ab-e56408d86751)
+
 
 
     Results from testing with recommended amplitudes
