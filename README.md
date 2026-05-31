@@ -107,6 +107,9 @@ AccelStepper Documentation:
 https://www.airspayce.com/mikem/arduino/AccelStepper/classAccelStepper.html 
 
 BOM For Shaker Table V-2:
+https://github.com/someguy131/ShakerTable-V2/blob/main/BOM-revised.xlsx
+
+
 https://hartford0-my.sharepoint.com/:x:/g/personal/forcier_hartford_edu/EQoHR8bn9C1Muq9yt1xqKHYBLXRtwSA_wKFjgTQhrU4cBg?e=nmwIVy 
 https://hartford0-my.sharepoint.com/:x:/g/personal/forcier_hartford_edu/EWN45QMFNgpOj6hBR95E2YwBf9stVtuqGKyqXrFxbaF5FQ?e=qKB1Xl 
 
