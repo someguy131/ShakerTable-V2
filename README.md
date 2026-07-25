@@ -3,6 +3,8 @@ Small-scale desktop vibration analysis tool based on an Arduino Uno and run via 
 
 ![image](https://github.com/user-attachments/assets/818b4593-0860-4558-b228-9afc340b0cef)
 
+https://iopscience.iop.org/article/10.1088/1361-6404/ae89ff 
+
 Shaker Tables are commonly used in environmental testing to prove that a complex design can withstand intense vibrations. Whether it's vibrations from an earthquake, the engine of an airplane, or someone walking around with the device in their backpack, all devices need to be able to withstand some level of vibration. While most models can be simulated with reasonable accuracy, sometimes designs are too complex or detailed to thoroughly test within software like Ansys. The only way to truly prove a design can withstand vibrations up to a certain standard, they must be tested in the real world.
 
 This small, desktop shaker table is made to simulate these vibrations, primarily for teaching demos or small scale testing.
@@ -115,4 +117,7 @@ https://hartford0-my.sharepoint.com/:x:/g/personal/forcier_hartford_edu/EWN45QMF
 
 CAD:
 https://cad.onshape.com/documents/7bd40d5f0396d9dd7bc3818a/w/cac37c4a6c6fd51dcfd15dc9/e/18fd263725c2068835e900cc?renderMode=0&uiState=663d1e92c250c04b90a2f304 
+
+Full Paper:
+https://iopscience.iop.org/article/10.1088/1361-6404/ae89ff 
 
